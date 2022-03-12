@@ -1,0 +1,33 @@
+.wrapperHeader {
+    height: 19vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+.logo-ikea-header {
+    width: 19.3vw;
+    position: absolute;
+    
+}
+.arrow-back {
+    width: 7.6vw;
+    position: absolute;
+    left: 8vw;
+}
+.wrapper-bulls {
+    display: flex;
+    width: 21%;
+    justify-content: space-around;
+    position: absolute;
+    right: 5vw;
+    
+}
+
+.bull {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    border: 1px solid;
+}

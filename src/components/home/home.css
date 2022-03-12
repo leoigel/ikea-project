@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main-home {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper-pic {
+    position: relative;
+}
+.yellow-bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+.pic-home {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo-ikea {
+    position: absolute;
+    z-index: 2;
+    width: 28vw;
+    top: 22.5vw;
+    left: 37vw;
+}
+.about-link {
+    color: #0058A3;
+    font-size: 3.6vw;
+    position: absolute;
+    z-index: 4;
+    right: 4.8vw;
+    top: 1vw;
+    text-decoration: inherit;
+    font-family: "Nato Sans Semi-Bold";
+
+}
+
+.content-home {
+    position: relative;
+    top: 121vw;
+    font-size: 5vw;
+    color: #000000;
+    left: 6vw;
+    font-family: "Nato Sans Regular";
+}
+.answer-text {
+    color: #000000;
+    font-family: "Nato Sans Bold";
+    position: relative;
+    top: 122vw;
+    font-size: 5vw;
+    left: 5vw;
+}
+.btn-plants {
+    position: relative;
+    top: 128vw;
+    width: 85.7vw;
+    height: 15.7vw;
+    background: #0058A3;
+    left: 7vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.link-plant-home {
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 5vw;
+}
+.link-tellmemore {
+    color: #0058A3;
+}
+.btn-tellmemore {
+    position: relative;
+    top: 136vw;
+    left: 13vw;
+    font-size: 4vw;
+    font-family: "Nato Sans Bold";
+}
+.link-tellmemore {
+    text-decoration: inherit;
+}

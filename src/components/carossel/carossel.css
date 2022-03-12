@@ -1,0 +1,137 @@
+.swiper {
+    /* margin-left: 4vw !important; */
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    height: auto;
+    /* top: -13vw; */
+
+
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.swiper-wrapper {
+    /* right: 5vw !important; */
+}
+
+.card-pic {
+    object-fit: contain;
+    height: 112vw;
+    
+}
+
+.btn-add {
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    background: #0058A3;
+    height: 14.5vw;
+    top: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5vw;
+}
+.btn-removed {
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    background: #16A300;
+    height: 14.5vw;
+    top: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5vw;
+}
+.content-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 90vw;
+}
+.content {
+    position: absolute;
+    left: 6vw;
+    height: auto;
+}
+
+.plant-name {
+    font-size: 5vw;
+    color: #000;
+    font-family: "Nato Sans Semi-Bold";
+}
+.help-container {
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+
+}
+.help {
+    font-size: 4.1vw;
+    color: #000;
+
+}
+.wrapper-exegol {
+    margin-top: 2vw;
+    margin: 0 1.1vw;
+    margin-top: 2vw;
+    position: relative;
+}
+.exegol {
+    width: 8.2vw;
+    height: auto;
+}
+.exegol-text {
+    position: absolute;
+    top: 2.5vw;
+    z-index: 2;
+    color: #fff;
+    left: 2.4vw;
+    font-size: 3vw;
+}
+.wrapper-card-text {
+    position: relative;
+    height: auto;
+    width: 85.5vw;
+    height: 18vw;
+}
+.card-text {
+    width: 85.5vw;
+    font-size: 4vw;
+    /* font-family: "Nato Sans Bold"; */
+    overflow: hidden;
+
+    position: relative;
+    height: 21vw;
+}
+.card-text-full {
+    width: 85.5vw;
+    font-size: 4vw;
+    overflow: visible;
+    height: fit-content;
+    position: relative;  
+}
+.read {
+    position: relative;
+}
+.btn-next {
+    width: 87vw;
+    border: #0058A3 solid;
+    height: 14.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    position: absolute;
+    top: 57vw;
+}

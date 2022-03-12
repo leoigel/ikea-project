@@ -1,0 +1,75 @@
+.main-page {
+    position: relative;
+}
+.video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -19vw;
+    z-index: -1;
+}
+.currentPage-pic {
+    width: 100%;
+    height: 105vw;
+
+}
+.wrapperCurrentText {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 5vw;
+    margin-top: 3vw;
+    position: relative;
+    top: -18vw;
+}
+.currentText {
+    font-size: 5vw;
+    text-align: left;
+}
+.btn-wrapper {
+        margin-left: 6vw;
+        position: relative;
+        top: -6vw;
+}
+.btn-question {
+    width: 42.5vw;
+    border: 0.5vw solid #0058A3;
+    display: inline-block;
+    text-align: center;
+    height: 17.5vw;
+    font-size: 5vw;
+    box-sizing: border-box;
+    padding-top: 5vw;
+}
+
+.btn-no {
+    margin-left: 3vw;
+}
+.wrapper-hamburguer {
+    width: 100%;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5vw;
+}
+.problem {
+    margin-left: 11vw;
+    color: #0058A3;
+    font-family: "Nato Sans Bold";
+    font-size: 4.5vw;
+}
+
+.countItems {
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 50%;
+    background: #16A300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    top: -3vw;
+    left: 13vw;
+}
